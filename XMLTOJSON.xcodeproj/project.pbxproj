@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F00E18E92366C9BA00E6D245 /* XMLTOJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F00E18E72366C9BA00E6D245 /* XMLTOJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00E18F02366C9C700E6D245 /* xmlToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E18EF2366C9C700E6D245 /* xmlToJson.swift */; };
+		F00E18F42366C9D600E6D245 /* DataBaseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E18F32366C9D600E6D245 /* DataBaseStruct.swift */; };
+		F00E18F62366C9EE00E6D245 /* TypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E18F52366C9EE00E6D245 /* TypeEnum.swift */; };
+		F00E18F82366C9F200E6D245 /* MyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E18F72366C9F200E6D245 /* MyParser.swift */; };
+		F00E18FA2366CA2800E6D245 /* ParsingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E18F92366CA2800E6D245 /* ParsingClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F00E18E42366C9BA00E6D245 /* XMLTOJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLTOJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00E18E72366C9BA00E6D245 /* XMLTOJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLTOJSON.h; sourceTree = "<group>"; };
 		F00E18E82366C9BA00E6D245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00E18EF2366C9C700E6D245 /* xmlToJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xmlToJson.swift; sourceTree = "<group>"; };
+		F00E18F32366C9D600E6D245 /* DataBaseStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseStruct.swift; sourceTree = "<group>"; };
+		F00E18F52366C9EE00E6D245 /* TypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeEnum.swift; sourceTree = "<group>"; };
+		F00E18F72366C9F200E6D245 /* MyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyParser.swift; sourceTree = "<group>"; };
+		F00E18F92366CA2800E6D245 /* ParsingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				F00E18E72366C9BA00E6D245 /* XMLTOJSON.h */,
+				F00E18F92366CA2800E6D245 /* ParsingClass.swift */,
+				F00E18F32366C9D600E6D245 /* DataBaseStruct.swift */,
+				F00E18F52366C9EE00E6D245 /* TypeEnum.swift */,
+				F00E18F72366C9F200E6D245 /* MyParser.swift */,
+				F00E18EF2366C9C700E6D245 /* xmlToJson.swift */,
 				F00E18E82366C9BA00E6D245 /* Info.plist */,
 			);
 			path = XMLTOJSON;
@@ -131,6 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00E18F82366C9F200E6D245 /* MyParser.swift in Sources */,
+				F00E18FA2366CA2800E6D245 /* ParsingClass.swift in Sources */,
+				F00E18F42366C9D600E6D245 /* DataBaseStruct.swift in Sources */,
+				F00E18F02366C9C700E6D245 /* xmlToJson.swift in Sources */,
+				F00E18F62366C9EE00E6D245 /* TypeEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
